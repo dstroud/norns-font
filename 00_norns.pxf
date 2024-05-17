@@ -8,14 +8,14 @@ space_width: 4
 creator_name: Based on 04b-03 by yuji oshimoto / 04@dsg4.com / www.04.jp.org
 font_family_name: 00_norns
 font_sub_family_name: Regular
-version: 240505
+version: 240517
 font_url: https://github.com/monome/norns
 license: 
 license_url: 
 
-last_exported_path: Z:\home\deck\Desktop\fonts\00_norns_240505.ttf
+last_exported_path: Z:\home\deck\Desktop\fonts\00_norns_240517.ttf
 
-num_glyphs: 216
+num_glyphs: 224
 glyphs:
 	33:
 		advance: 2
@@ -621,7 +621,7 @@ glyphs:
 		advance: 4
 		auto_update_advance: true
 		auto_advance_amount: 1
-		pixels: 0 3, 1 0, 1 2, 1 4, 2 1, 2 2, 2 3, 
+		pixels: 0 3, 1 0, 1 2, 1 4, 2 1, 2 2, 2 3, 2 4, 
 	7503:
 		advance: 4
 		auto_update_advance: true
@@ -672,6 +672,21 @@ glyphs:
 		auto_update_advance: true
 		auto_advance_amount: 1
 		pixels: 0 4, 1 2, 1 3, 1 4, 2 2, 
+	8198:
+		advance: 3
+		auto_update_advance: false
+		auto_advance_amount: 1
+		pixels: 
+	8201:
+		advance: 2
+		auto_update_advance: false
+		auto_advance_amount: 1
+		pixels: 
+	8202:
+		advance: 1
+		auto_update_advance: false
+		auto_advance_amount: 1
+		pixels: 
 	8208:
 		advance: 4
 		auto_update_advance: true
@@ -837,6 +852,11 @@ glyphs:
 		auto_update_advance: true
 		auto_advance_amount: 1
 		pixels: 0 2, 1 1, 1 2, 2 0, 2 1, 2 2, 2 3, 2 4, 3 1, 3 2, 4 2, 
+	8634:
+		advance: 7
+		auto_update_advance: true
+		auto_advance_amount: 1
+		pixels: 0 2, 1 1, 1 2, 1 3, 2 0, 2 1, 2 2, 2 3, 2 4, 3 2, 4 -1, 4 2, 5 0, 5 1, 
 	8710:
 		advance: 6
 		auto_update_advance: true
@@ -877,16 +897,26 @@ glyphs:
 		auto_update_advance: true
 		auto_advance_amount: 1
 		pixels: 0 2, 1 1, 1 2, 1 3, 2 0, 2 1, 2 2, 2 3, 2 4, 3 2, 4 1, 4 2, 4 3, 5 0, 5 1, 5 2, 5 3, 5 4, 
+	9198:
+		advance: 5
+		auto_update_advance: true
+		auto_advance_amount: 1
+		pixels: 0 0, 0 1, 0 2, 0 3, 0 4, 1 2, 2 1, 2 2, 2 3, 3 0, 3 1, 3 2, 3 3, 3 4, 
+	9199:
+		advance: 7
+		auto_update_advance: true
+		auto_advance_amount: 1
+		pixels: 0 0, 0 1, 0 2, 0 3, 0 4, 1 1, 1 2, 1 3, 2 2, 3 0, 3 1, 3 2, 3 3, 3 4, 5 0, 5 1, 5 2, 5 3, 5 4, 
 	9204:
 		advance: 5
 		auto_update_advance: true
 		auto_advance_amount: 1
 		pixels: 0 2, 1 1, 1 2, 1 3, 2 0, 2 1, 2 2, 2 3, 2 4, 3 0, 3 1, 3 2, 3 3, 3 4, 
 	9205:
-		advance: 6
+		advance: 5
 		auto_update_advance: true
 		auto_advance_amount: 1
-		pixels: 1 0, 1 1, 1 2, 1 3, 1 4, 2 0, 2 1, 2 2, 2 3, 2 4, 3 1, 3 2, 3 3, 4 2, 
+		pixels: 0 0, 0 1, 0 2, 0 3, 0 4, 1 0, 1 1, 1 2, 1 3, 1 4, 2 1, 2 2, 2 3, 3 2, 
 	9208:
 		advance: 6
 		auto_update_advance: true
@@ -902,6 +932,11 @@ glyphs:
 		auto_update_advance: true
 		auto_advance_amount: 1
 		pixels: 0 1, 0 2, 0 3, 1 0, 1 1, 1 2, 1 3, 1 4, 2 0, 2 1, 2 2, 2 3, 2 4, 3 0, 3 1, 3 2, 3 3, 3 4, 4 1, 4 2, 4 3, 
+	9251:
+		advance: 6
+		auto_update_advance: true
+		auto_advance_amount: 1
+		pixels: 0 -1, 0 0, 1 -1, 2 -1, 3 -1, 4 -1, 4 0, 
 	9650:
 		advance: 6
 		auto_update_advance: true
@@ -1062,6 +1097,11 @@ glyphs:
 		auto_update_advance: true
 		auto_advance_amount: 1
 		pixels: 0 3, 1 2, 1 4, 2 1, 2 2, 2 3, 2 4, 
+	57347:
+		advance: 6
+		auto_update_advance: true
+		auto_advance_amount: 1
+		pixels: 0 2, 0 3, 1 0, 1 4, 2 0, 2 4, 3 0, 3 4, 4 1, 4 2, 
 	59504:
 		advance: 5
 		auto_update_advance: true

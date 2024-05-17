@@ -1,12 +1,13 @@
--- norns font WIP 240505
+-- norns font WIP 240517
 --
 --
 -- NEW GLYPHS
--- media: 			  ⏸ ⏵ ⏺ ⏹ ⏴ ⏪ ⏩
+-- space:			med⏹ ⏹ thin⏹ ⏹ hair⏹ ⏹
+-- media: 			  ⏸ ⏵ ⏺ ⏹ ⏴ ⏪ ⏩ ⏮ ⏯
 -- RN lower: 		ⅰ ⅱ ⅲ ⅳ ⅴ ⅵ ⅶ
 -- RN upper: 		Ⅰ Ⅱ Ⅲ Ⅳ Ⅴ Ⅵ Ⅶ
 -- musical:			𝄪 𝄫
--- misc: 				∆ ✓ ◆
+-- misc: 				∆ ✓ ◆ 🔄 ␣ ↺
 --
 --
 -- SUPERSCRIPTS/SUPERIORS
@@ -40,17 +41,19 @@ lattice = include(lib .. "unicode")
 
 function init()
   
-  glyphs = {}
-  -- tab.print(unicode)
-  for k,v in pairs(unicode) do
-    print(k, v)
-    table.insert(glyphs, k .. " " .. v)
-  end
+  -- glyphs = {}
+  -- -- tab.print(unicode)
+  -- for k,v in pairs(unicode) do
+  --   -- print(v, k)
+  --   table.insert(glyphs, v .. " " .. k)
+  -- end
   
   -- creates instances of scrolling lists
   scroll ={}
   
-  scroll[1] = UI.ScrollingList.new(0,8,1,glyphs) 
+  -- scroll[1] = UI.ScrollingList.new(0,8,1,glyphs) 
+  scroll[1] = UI.ScrollingList.new(0,8,1,unicode_index) 
+
   
   message = {}
 end
@@ -77,92 +80,3 @@ function enc(n,d)
     redraw()
   end
 end
-
-
--- local lib = norns.state.shortname.."/lib/"
-
--- -- ""\u{E263}"  double sharp
-
-
--- function init()
---   redraw()
--- end
-
--- -- Std.supers: ¹²³⁴⁵⁶⁷⁸⁹⁰⁺⁻⁽⁾ᴹᵐᵃʲᵇ
--- -- Private-use supers: 
--- -- Media: ⏵ ⏸ ⏹ ⏺ ⏴ ⏪ ⏩
--- -- Romans: ⅰ ⅱ ⅲ ⅳ ⅴ ⅵ ⅶ
--- --          Ⅰ Ⅱ Ⅲ Ⅳ Ⅴ Ⅵ Ⅶ
--- -- Extras: ∆✓
--- -- Ex: Cmᴹ⁷  Cm7ᵇ⁵  iᵐᵃʲ⁷  Ⅳᴹ⁷
-
-
--- function redraw()
---   screen.aa(1)
---   screen.level(15)
---   screen.font_size(8)
-  
-
---   -- questionables:
---   -- \u{E000} superscript ø
---   -- \u{E001} superscript ♮
---   -- \u{E002} superscript ♯
-
-
--- -- Std.supers: ¹²³⁴⁵⁶⁷⁸⁹⁰⁺⁻⁽⁾ᴹᵐᵃʲᵇ
--- -- Private-use supers: 
--- -- Media: ⏵ ⏸ ⏹ ⏺ ⏴ ⏪ ⏩
--- -- Romans: ⅰ ⅱ ⅲ ⅳ ⅴ ⅵ ⅶ
--- --          Ⅰ Ⅱ Ⅲ Ⅳ Ⅴ Ⅵ Ⅶ
--- -- Extras: ∆✓
--- -- Ex: Cmᴹ⁷  Cm7ᵇ⁵  iᵐᵃʲ⁷  Ⅳᴹ⁷
-
-
---   screen.move(0,10)
---   screen.text("Std.supers: ¹²³⁴⁵⁶⁷⁸⁹⁰⁺⁻⁽⁾ᴹᵐᵃʲᵇ")
-  
---   screen.move(0,20)
---   screen.text("Private-use supers: \u{E000}\u{E001}\u{E002}")
-  
---   screen.move(0,30)
---   screen.text("Media: ⏵ ⏸ ⏹ ⏺ ⏴ ⏪ ⏩")
-    
---   screen.move(0,40)
---   screen.text("Romans: ⅰ ⅱ ⅲ ⅳ ⅴ ⅵ ⅶ")
---   screen.move(37,50)
---   screen.text("Ⅰ Ⅱ Ⅲ Ⅳ Ⅴ Ⅵ Ⅶ")
-
---   screen.move(0,60)
---   screen.text("Extras: ∆✓")
-  
---   print("Std.supers: ¹²³⁴⁵⁶⁷⁸⁹⁰⁺⁻⁽⁾ᴹᵐᵃʲᵇ")
---   -- print("Private-use: \u{E260} \u{E261} \u{E262} \u{E263} \u{E264} \u{E870} \u{E871}")
---   print("Flat: \u{E260}")
---   print("Sharp: \u{E262}") 
---   print("Natural: \u{E261}") 
---   print("Double-sharp: \u{E263}")
---   print("Double-flat: \u{E264}")
---   print("Diminished: \u{E870}")
---   print("Half-diminished \u{E871}")
---   print("  ")
---   print("Media: ⏵ ⏸ ⏹ ⏺ ⏴ ⏪ ⏩")
---   print("Romans: ⅰ ⅱ ⅲ ⅳ ⅴ ⅵ ⅶ")
---   print("Ⅰ Ⅱ Ⅲ Ⅳ Ⅴ Ⅵ Ⅶ")
---   print("Extras: ∆✓")
---   print("Ex: Cmᴹ⁷  Cm7ᵇ⁵  iᵐᵃʲ⁷  Ⅳᴹ⁷")
- 
-    
---   -- -- Alt for major-minor
---   -- screen.move(10,40)
---   -- screen.text("Major-minor alt: Cmᴹ⁷")
-
-
---   -- -- Alt for half-diminished
---   -- screen.move(10,50)
---   -- screen.text("Half-diminished alt: Cm7ᵇ⁵")
-
-
-  
---   screen.fill()
---   screen.update()
--- end  
