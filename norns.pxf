@@ -8,12 +8,12 @@ space_width: 4
 creator_name: Based on 04b-03 by yuji oshimoto / 04@dsg4.com / www.04.jp.org
 font_family_name: 00_norns
 font_sub_family_name: Regular
-version: 240521
+version: 240527
 font_url: https://github.com/monome/norns
 license: 
 license_url: 
 
-last_exported_path: Z:\home\deck\Desktop\fonts\00_norns_240521.ttf
+last_exported_path: Z:\home\deck\Desktop\fonts\norns_240527.ttf
 
 num_glyphs: 234
 glyphs:

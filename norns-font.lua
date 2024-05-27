@@ -1,4 +1,4 @@
--- norns font WIP 240521
+-- norns font WIP 240527
 -- 
 -- NEW GLYPHS
 -- spaces:		med⏹ ⏹ thin⏹ ⏹ hair⏹ ⏹
@@ -11,8 +11,9 @@
 -- math:			∆
 -- 
 -- REMAPS
--- ♭				to U+E260
--- ~				to U+0303
+--  U+266D to U+E260
+--  ̃ U+007E to U+0303
+-- Ø U+00F8 to U+00D8
 -- 
 -- SUPERSCRIPTS/SUPERIORS
 -- numerals:		¹²³⁴⁵⁶⁷⁸⁹⁰

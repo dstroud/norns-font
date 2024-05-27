@@ -9,9 +9,9 @@ This repo is a place to track work on a proposed pixel font for musical applicat
 ---
 ### Files
 
-- 00_norns map.pdf - list of the new glyphs and proposed changes to existing glyphs
-- 00_norns.pxf - PixelForge file (see [workflow](https://github.com/dstroud/norns-font/edit/main/README.md#workflow))
-- 00_norns.ttf - the final .ttf font file
+- norns-font.pdf - list of the new glyphs and proposed changes to existing glyphs
+- norns.pxf - PixelForge file (see [workflow](https://github.com/dstroud/norns-font/edit/main/README.md#workflow))
+- norns.ttf - the final .ttf font file
 - norns-font.lua - a Norns test script and WIP unicode lookup lib which can be installed in maiden:
 
   `;install https://github.com/dstroud/norns-font`
@@ -35,7 +35,7 @@ Edit .ttf in [Type light](https://cr8software.net/typelight.html)
 ---
 
 ### Installing the font on Norns
-1. Download 00_norns.ttf and rename as 04B_03__.TTF
+1. Download norns.ttf and rename as 04B_03__.TTF
 2. Copy the renamed file over to norns/resources/, _overwriting the original_
 
    `scp your_file_path/04B_03__.TTF we@norns.local:~/norns/resources/`
