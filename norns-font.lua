@@ -8,7 +8,7 @@
 -- musical:		𝄪 𝄫
 -- ui: 				✓ ◆ 🔄 ␣ ▮ ● ○ ◉
 -- arrows:		↻ ↺ ↳ ↲
--- math:			∆
+-- math:			∆ ▦
 -- 
 -- REMAPS
 --  U+266D to U+E260
