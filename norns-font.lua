@@ -1,4 +1,4 @@
--- norns font WIP 240527
+-- norns font 240617
 -- 
 -- NEW GLYPHS
 -- spaces:		med⏹ ⏹ thin⏹ ⏹ hair⏹ ⏹
@@ -7,6 +7,7 @@
 -- RN upper: 	Ⅰ Ⅱ Ⅲ Ⅳ Ⅴ Ⅵ Ⅶ
 -- musical:		𝄪 𝄫
 -- ui: 				✓ ◆ 🔄 ␣ ▮ ● ○ ◉
+-- punctuation: •
 -- arrows:		↻ ↺ ↳ ↲
 -- math:			∆ ▦
 -- 
